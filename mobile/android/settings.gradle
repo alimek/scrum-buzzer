@@ -1,0 +1,3 @@
+rootProject.name = 'scrumbuzzer'
+
+include ':app'
