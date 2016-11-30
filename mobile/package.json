@@ -1,5 +1,5 @@
 {
-	"name": "scrumbuzzer",
+	"name": "ScrumBuzzer",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -7,12 +7,19 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"@exponent/ex-navigation": "^2.1.4",
+		"@exponent/react-native-navigator": "^0.4.9",
+		"babel-preset-react-native-stage-0": "^1.0.1",
+		"native-base": "^0.5.18",
 		"react": "~15.4.0-rc.4",
-		"react-native": "0.38.0"
+		"react-native": "0.38.0",
+		"react-redux": "^4.4.6",
+		"redux": "^3.6.0"
 	},
 	"devDependencies": {
 		"babel-jest": "17.0.2",
 		"babel-preset-react-native": "1.9.0",
+		"flow-bin": "^0.36.0",
 		"jest": "17.0.3",
 		"jest-react-native": "17.1.0",
 		"react-test-renderer": "~15.4.0-rc.4"
